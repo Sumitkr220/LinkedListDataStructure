@@ -23,7 +23,11 @@ namespace Linked_List
             list.Add1(70);
             list.InsertAtParticularPosition(2, 30);
             list.Display();
-            Console.WriteLine("First element popped out of the Linked List- " + list.RemoveFirstNode().data);
+            Console.WriteLine("Delete Firsr element of the Linked List- " + list.RemoveFirstNode().data);
+            list.Display();
+            list.InsertAtParticularPosition(1, 56);
+            list.Display();
+            Console.WriteLine("Delete last element of the Linked List- " + list.RemoveLastNode().data);
             list.Display();
         }
     }
