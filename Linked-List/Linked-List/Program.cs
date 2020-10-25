@@ -13,6 +13,7 @@ namespace Linked_List
             list.Add1(30);
             list.Add1(70);
             list.Display();
+
             list = new LinkedList();
             list.Add2(70);
             list.Add2(30);
